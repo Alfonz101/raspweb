@@ -6,30 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="img/favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Malinový Minecraft Server</title>
   </head>
   <!-- TODO Responzivni text -->
-  <body class="bg-slate-950 text-white font-roboto h-screen ">
-    <div class="h-44 bg-gradient-to-r from-red-500 to-pink-500">
-      <h1 class="text-4xl sm:text-5xl text-slate-950 font-bold text-center p-9 pb-1 sm:pb-4">
+  <body class="h-screen bg-slate-950 font-roboto text-white">
+    <div
+      class="flex h-44 flex-col items-center justify-center bg-gradient-to-r from-red-500 to-pink-500"
+    >
+      <h1
+        class="p-9 pb-1 text-center text-4xl font-bold text-slate-950 transition-all md:pb-4 md:text-5xl"
+      >
         Malinový Minecraft Server
       </h1>
-      <p class="text-slate-900 text-center text-xl pt-4">
+      <p class="pt-4 text-center text-xl text-slate-900 transition-all">
         ...Supr čupr Minecraft Server
       </p>
     </div>
     <!-- TODO Jiny bg pri mensich obrazovkach -->
     <section class="grid place-items-center">
-      <div class="flex justify-center items-center flex-col gap-20 w-[80%] h-[500px] mt-12 mb-12 sm:bg-[url('/build/img/mc-bg.jpg')] bg-cover bg-no-repeat">
-        <p class="sm:text-5xl text-4xl ">Verze: 1.8.9</p>
-        <p class="sm:text-5xl text-4xl">IP: 192.168.69.6</p>
-        
+      <div
+        class="mb-12 mt-12 flex h-[500px] w-[80%] flex-col items-center justify-center gap-20 bg-[url('/build/img/sm-mc-bg.jpg')] bg-cover bg-no-repeat sm:bg-[url('/build/img/mc-bg.jpg')]"
+      >
+        <p class="rounded-xl p-9 text-4xl backdrop-brightness-50 sm:text-5xl">
+          Verze: 1.8.9
+        </p>
+        <p class="rounded-xl p-9 text-4xl backdrop-brightness-50 sm:text-5xl">
+          IP: 192.168.69.6
+        </p>
       </div>
     </section>
-    <footer class="p-5 bg-slate-900">
+    <section class="flex items-center justify-center gap-x-10">
+      <div class="h-60 w-72 bg-gradient-to-r from-red-500 to-pink-500"><p>hej</p></div>
+      <div class="h-10 w-10 bg-gradient-to-r from-red-500 to-pink-500"><p>hej</p></div>
+    </section>
+    <footer class="p-1">
       <p class="text-center">Zrealizováno Robertem a Matějem ze 3.PT</p>
     </footer>
   </body>
