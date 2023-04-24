@@ -668,6 +668,10 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\/img\/sm-mc-bg\.jpg\'\)\] {
+  background-image: url('/img/sm-mc-bg.jpg');
+}
+
 .from-red-500 {
   --tw-gradient-from: #ef4444 var(--tw-gradient-from-position);
   --tw-gradient-from-position:  ;
@@ -829,6 +833,10 @@ video {
 
   .sm\:bg-\[url\(\'\/build\/img\/mc-bg\.jpg\'\)\] {
     background-image: url('/build/img/mc-bg.jpg');
+  }
+
+  .sm\:bg-\[url\(\'\/img\/mc-bg\.jpg\'\)\] {
+    background-image: url('/img/mc-bg.jpg');
   }
 
   .sm\:text-5xl {
