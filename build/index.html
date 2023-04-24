@@ -14,7 +14,6 @@
     />
     <title>Malinový Minecraft Server</title>
   </head>
-  <!-- TODO Responzivni text -->
   <body class="h-screen bg-slate-950 font-roboto text-white">
     <div
       class="flex h-44 flex-col items-center justify-center bg-gradient-to-r from-red-500 to-pink-500"
@@ -28,25 +27,50 @@
         ...Supr čupr Minecraft Server
       </p>
     </div>
-    <!-- TODO Jiny bg pri mensich obrazovkach -->
     <section class="grid place-items-center">
       <div
-        class="mb-12 mt-12 flex h-[500px] w-[80%] flex-col items-center justify-center gap-20 bg-[url('/build/img/sm-mc-bg.jpg')] bg-cover bg-no-repeat sm:bg-[url('/build/img/mc-bg.jpg')]"
+        class="mb-12 mt-12 flex h-[500px] w-[80%] flex-col items-center justify-center gap-20 rounded-2xl border border-white bg-[url('/build/img/sm-mc-bg.jpg')] bg-cover bg-no-repeat sm:bg-[url('/build/img/mc-bg.jpg')]"
       >
         <p class="rounded-xl p-9 text-4xl backdrop-brightness-50 sm:text-5xl">
           Verze: 1.8.9
         </p>
-        <p class="rounded-xl p-9 text-4xl backdrop-brightness-50 sm:text-5xl">
+        <p
+          id="ip"
+          class="rounded-xl p-9 text-4xl backdrop-brightness-50 sm:text-5xl"
+        >
           IP: 192.168.69.6
         </p>
       </div>
     </section>
-    <section class="flex items-center justify-center gap-x-10">
-      <div class="h-60 w-72 bg-gradient-to-r from-red-500 to-pink-500"><p>hej</p></div>
-      <div class="h-10 w-10 bg-gradient-to-r from-red-500 to-pink-500"><p>hej</p></div>
+    <section class="flex flex-col items-center justify-center md:flex-row">
+      <div
+        class="m-10 flex h-60 w-72 flex-col items-center justify-center gap-y-5 rounded-xl bg-gradient-to-r from-red-500 to-pink-500 p-4"
+      >
+        <h2 class="text-3xl font-bold transition-all sm:text-4xl">
+          O projektu
+        </h2>
+        <p class="text-center transition-all">
+          Projekt je vytvářen žáky ISŠTE ze 3.PT, na základě zadání našeho
+          nejmilovanějšího učitele Bc. Karla Soukupa.
+        </p>
+      </div>
+      <div
+        class="m-10 flex h-60 w-72 flex-col items-center justify-center gap-y-5 rounded-xl bg-gradient-to-r from-red-500 to-pink-500 p-4"
+      >
+        <h2 class="pb-6 text-3xl font-bold transition-all sm:text-4xl">
+          Kontakt
+        </h2>
+        <p class="font-bold text-cyan-300 transition-all">
+          <a href="mailto: robert.seaborn@student.isste.cz">Robertův email</a>
+        </p>
+        <p class="font-bold text-cyan-300 transition-all">
+          <a href="mailto: matej.slemr@student.isste.cz">Matějův email</a>
+        </p>
+      </div>
     </section>
     <footer class="p-1">
       <p class="text-center">Zrealizováno Robertem a Matějem ze 3.PT</p>
     </footer>
   </body>
+  <script src="index.js"></script>
 </html>
