@@ -516,14 +516,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bottom-1 {
-  bottom: 0.25rem;
-}
-
-.m-9 {
-  margin: 2.25rem;
-}
-
 .m-10 {
   margin: 2.5rem;
 }
@@ -544,10 +536,6 @@ video {
   display: grid;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-44 {
   height: 11rem;
 }
@@ -562,10 +550,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .w-72 {
@@ -584,70 +568,32 @@ video {
   place-items: center;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
-.items-end {
-  align-items: flex-end;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
-.justify-stretch {
-  justify-content: stretch;
-}
-
 .gap-20 {
   gap: 5rem;
-}
-
-.gap-x-10 {
-  -moz-column-gap: 2.5rem;
-       column-gap: 2.5rem;
 }
 
 .gap-y-5 {
   row-gap: 1.25rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-2xl {
   border-radius: 1rem;
 }
 
-.border {
-  border-width: 1px;
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
-.border-cyan-50 {
-  --tw-border-opacity: 1;
-  border-color: rgb(236 254 255 / var(--tw-border-opacity));
+.border {
+  border-width: 1px;
 }
 
 .border-white {
@@ -660,16 +606,12 @@ video {
   background-color: rgb(2 6 23 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/build\/img\/sm-mc-bg\.jpg\'\)\] {
-  background-image: url('/build/img/sm-mc-bg.jpg');
+.bg-\[url\(\'\/img\/sm-mc-bg\.jpg\'\)\] {
+  background-image: url('/img/sm-mc-bg.jpg');
 }
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\/img\/sm-mc-bg\.jpg\'\)\] {
-  background-image: url('/img/sm-mc-bg.jpg');
 }
 
 .from-red-500 {
@@ -697,64 +639,37 @@ video {
   padding: 0.25rem;
 }
 
-.p-9 {
-  padding: 2.25rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-0 {
-  padding: 0px;
+.p-9 {
+  padding: 2.25rem;
 }
 
 .pb-1 {
   padding-bottom: 0.25rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-center {
   text-align: center;
 }
 
-.text-justify {
-  text-align: justify;
-}
-
 .font-roboto {
   font-family: Roboto;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -767,18 +682,13 @@ video {
   line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.text-cyan-300 {
+  --tw-text-opacity: 1;
+  color: rgb(103 232 249 / var(--tw-text-opacity));
 }
 
 .text-slate-900 {
@@ -796,24 +706,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-cyan-300 {
-  --tw-text-opacity: 1;
-  color: rgb(103 232 249 / var(--tw-text-opacity));
-}
-
-.text-cyan-500 {
-  --tw-text-opacity: 1;
-  color: rgb(6 182 212 / var(--tw-text-opacity));
-}
-
-.decoration-black {
-  text-decoration-color: #000;
-}
-
-.decoration-solid {
-  text-decoration-style: solid;
-}
-
 .backdrop-brightness-50 {
   --tw-backdrop-brightness: brightness(.5);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -827,31 +719,18 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
-  .sm\:bg-\[url\(\'\/build\/img\/mc-bg\.jpg\'\)\] {
-    background-image: url('/build/img/mc-bg.jpg');
-  }
-
   .sm\:bg-\[url\(\'\/img\/mc-bg\.jpg\'\)\] {
     background-image: url('/img/mc-bg.jpg');
-  }
-
-  .sm\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
